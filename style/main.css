@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+    color: #7F8C8D;
+    line-height: 1.7;
+}
+
+p {
+    margin-top: 6px;
+}
+
+h2, h3, h4, label {
+    color: #45474f
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+}
+
+h1, h3, h4, strong {
+    font-weight: 600;
+} 
+
+h3 {
+    font-size: 18px;
+}
+
+.col-one-third {
+    width: 33.3333%;
+    float: left;
+}
+
+.col-half {
+    width: 50%;
+    float: left;
+}
+
+section {
+    clear: both;
+    padding: 90px 0;
+    overflow: auto;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 16px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-light {
+    background: #ffffff;
+    color: #000000;
+}
+
+.button-dark {
+    background: #A1D76F;
+    color: #ffffff;
+}
+
+/* Nagłówek strony*/
+.top {
+    height: 60px;
+    background: #34495e
+}
+
+.top a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu li {
+    float: left;
+    line-height: 60px;
+    padding: 0 10px;
+}
+
+.banner {
+    background: #000000;
+    color: #ffffff;
+    padding: 200px 0;
+    background: url("../img/top.jpg") 0 -140px;
+}
+
+.banner h1 {
+    margin-bottom: 30px;
+}
+
+.intro img {
+    margin-bottom: 32px;
+    width: 180px;
+    height: 180px;
+}
+
+.intro h3 {
+    color: #a1d76f;
+    margin-bottom: 10px;
+}
+
+.promo {
+    background: #d15555;
+}
+
+.promo h2 {
+    color: #ffffff;
+    margin-bottom: 10px
+}
+
+.promo p {
+    color: #eeeeee;
+}
+
+.contact input {
+    margin-bottom: 16px;
+    border-radius: 2px;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    width: 80%;
+}
+
+.contact .col-half {
+    margin-top: 16px;
+}
+
+.site-footer {
+    background: #000000;
+    color: #ffffff;
+    padding: 16px 0;
+}
+
