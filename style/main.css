@@ -8,7 +8,10 @@ p {
     margin-top: 6px;
 }
 
-h2, h3, h4, label {
+h2,
+h3,
+h4,
+label {
     color: #45474f
 }
 
@@ -23,29 +26,33 @@ h2 {
     text-transform: uppercase;
 }
 
-h1, h3, h4, strong {
+h1,
+h3,
+h4,
+strong {
     font-weight: 600;
-} 
+}
 
 h3 {
     font-size: 18px;
 }
 
-.col-one-third, .col-half {
+.col-one-third,
+.col-half {
     width: 100%;
     float: none;
 }
-/*
-.col-one-third {
-    width: 33.3333%;
-    float: left;
-}
 
-.col-half {
-    width: 50%;
-    float: left;
+@media screen and (min-width: 960px) {
+    .col-one-third {
+        width: 33.3333%;
+        float: left;
+    }
+    .col-half {
+        width: 50%;
+        float: left;
+    }
 }
-*/
 
 section {
     clear: both;
@@ -83,9 +90,12 @@ section {
 }
 
 /* Nagłówek strony*/
+
 .top {
     height: 60px;
-    background: #34495e
+    background: #34495e;
+    position: fixed;
+    width: 100%;
 }
 
 .top a {
@@ -162,4 +172,3 @@ section {
     color: #ffffff;
     padding: 16px 0;
 }
-
