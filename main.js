@@ -7,5 +7,7 @@ $(document).ready(function () {
         
         $('#contact-right').html(name + '<br>' + email + '<br>' + password);
     });
+    
+    $('p, h1, h2, h3, h4, a, img, form, button').hide().fadeIn(3000);
 
 });
