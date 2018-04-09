@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('.logo span').addClass('change-logo-color');    
     $('#login').click(function (event) {
         event.preventDefault();
         var name = $('#name').val();
