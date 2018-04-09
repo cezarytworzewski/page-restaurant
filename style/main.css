@@ -130,6 +130,7 @@ section {
     color: #ffffff;
     padding: 200px 0;
     background: url("../img/top.jpg") 0 -140px;
+    background-size: cover;
 }
 
 .banner h1 {
