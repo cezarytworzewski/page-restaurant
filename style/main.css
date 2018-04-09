@@ -37,6 +37,11 @@ h3 {
     font-size: 18px;
 }
 
+.change-logo-color {
+	color: black;
+	font-weight: 700;
+}
+
 .col-one-third,
 .col-half {
     width: 100%;
